@@ -24,6 +24,7 @@
     ".NETCoreApp,Version=v3.1": {
       "CursoMVC/1.0.0": {
         "dependencies": {
+          "Microsoft.EntityFrameworkCore.Design": "3.1.8",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.8",
           "Microsoft.EntityFrameworkCore.Sqlite": "3.1.8",
           "Microsoft.EntityFrameworkCore.Tools": "3.1.8",
