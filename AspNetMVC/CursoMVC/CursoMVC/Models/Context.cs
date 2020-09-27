@@ -16,5 +16,10 @@ namespace CursoMVC.Models
         {
             optionsBuilder.UseSqlServer(connectionString: @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=CursoMVC1;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
         }
+
+        public void SetModified(Object entity)
+        {
+            Entry(entity).State = EntityState.Modified;
+        }
     }
 }
